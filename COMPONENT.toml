@@ -1,0 +1,16 @@
+[component]
+name = "SigmaOS-command"
+tier = 2
+stability = "scaffold"
+language = "rust"
+description = "Command executor and shell integration for SigmaOS"
+upstream = []
+
+[contract]
+provides = ["component"]
+depends_on = []
+
+[maturity]
+status = "Scaffold"
+test_evidence = "Compiles and passes AAA unit tests"
+next_milestone = "Hardware and runtime integration"
