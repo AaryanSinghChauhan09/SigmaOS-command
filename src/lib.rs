@@ -444,3 +444,6 @@ mod tests {
         );
     }
 }
+
+/// Module extracted from the SigmaOS-system monolith.
+pub mod sigmahelpermanager;
